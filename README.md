@@ -20,3 +20,10 @@ The main thing above all is code consistency.
 - Keep the line lengths reasonable. No hard limit on 80 characters but don't go further
   than 110. Some people work with multiple buffers next to each other.
   Make them like you :)
+  
+  
+# Changes
+- when I was trying to install on Windows would get the following error: "c1: fatal error C1083: Cannot open source file: 'src/libethash/io_win32.c': No such file or directory"
+- Made the changes listed in the following links (identical changes):
+  - https://github.com/ethereum/pyethereum/issues/900
+  - https://github.com/ethereum/ethash/issues/104
